@@ -12,6 +12,8 @@
 		0C3E37AC223B4AFF0064F59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E37AA223B4AFF0064F59F /* Main.storyboard */; };
 		0C3E37AE223B4AFF0064F59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E37AD223B4AFF0064F59F /* Assets.xcassets */; };
 		0C3E37B1223B4AFF0064F59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E37AF223B4AFF0064F59F /* LaunchScreen.storyboard */; };
+		F446C19622F3F6DD00671A59 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F446C19522F3F6DD00671A59 /* logo.png */; };
+		F446C19A22F3FBF000671A59 /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = F446C19922F3FBF000671A59 /* preview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0C3E37AD223B4AFF0064F59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3E37B0223B4AFF0064F59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C3E37B2223B4AFF0064F59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F446C19522F3F6DD00671A59 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F446C19922F3FBF000671A59 /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		0C3E37A5223B4AFF0064F59F /* SimpleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				F446C19422F3F6BA00671A59 /* Asset */,
 				0C3E37A6223B4AFF0064F59F /* AppDelegate.swift */,
 				0C3E37A8223B4AFF0064F59F /* ViewController.swift */,
 				0C3E37AA223B4AFF0064F59F /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				0C3E37B2223B4AFF0064F59F /* Info.plist */,
 			);
 			path = SimpleScrollView;
+			sourceTree = "<group>";
+		};
+		F446C19422F3F6BA00671A59 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				F446C19922F3FBF000671A59 /* preview.gif */,
+				F446C19522F3F6DD00671A59 /* logo.png */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F446C19622F3F6DD00671A59 /* logo.png in Resources */,
+				F446C19A22F3FBF000671A59 /* preview.gif in Resources */,
 				0C3E37B1223B4AFF0064F59F /* LaunchScreen.storyboard in Resources */,
 				0C3E37AE223B4AFF0064F59F /* Assets.xcassets in Resources */,
 				0C3E37AC223B4AFF0064F59F /* Main.storyboard in Resources */,
@@ -281,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H9UB4842E4;
+				DEVELOPMENT_TEAM = CA959874KQ;
 				INFOPLIST_FILE = SimpleScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H9UB4842E4;
+				DEVELOPMENT_TEAM = CA959874KQ;
 				INFOPLIST_FILE = SimpleScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
